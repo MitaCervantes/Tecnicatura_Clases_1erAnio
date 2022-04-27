@@ -1,1 +1,1 @@
-Mis primeros pasos en git
+Mis primeros pasos en git, y otras cosas más
