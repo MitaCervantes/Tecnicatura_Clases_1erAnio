@@ -1,4 +1,4 @@
-miVariable = 3
+"""miVariable = 3
 print(miVariable)
 miVariable = "a"
 print(miVariable)
@@ -58,4 +58,94 @@ print(resultado)
 numero1 = input("Escribe el primer número: ")
 numero2 = input("Escribe el segundo número: ")
 resultado = int(numero1) + int(numero2)
-print("El resultado de la suma es: ", resultado)
+print("El resultado de la suma es: ", resultado)"""
+
+
+"""operandoA = 8
+operandoB = 5
+suma = operandoA + operandoB
+print("El resultado de la suma es:", suma)
+print(f"El resultado de la suma es: {suma}")
+
+resta = operandoA - operandoB
+print(f"El resultado de la resta es: {resta}")
+
+multiplicacion = operandoA * operandoB
+print(f"El resultado de la multiplicacion es: {multiplicacion}")
+
+division = operandoA / operandoB
+print(f"El resultado de la division es: {division}")
+division = operandoA // operandoB
+print(f"El resultado de la divsion es: {division}")
+
+modulo = operandoA % operandoB
+print(f"El resultado del residuo es: {modulo}")
+
+exponente = operandoA ** operandoB
+print(f"El resultado de la exponenciacion es: {exponente}")"""
+
+"""alto = int(input("Proporciona el alto del rectangulo: "))
+ancho = int(input("Proporciona el ancho del rectangulo: "))
+area = alto * ancho
+perimetro = (alto + ancho) * 2
+print(f"El resultado del area es: {area}")
+print(f"El resultado del perimetro es: {perimetro}")"""
+
+"""miVariable3 = 10
+print(miVariable3)
+
+# Operadores de Reasignación
+miVariable3 = miVariable3 + 1
+print(miVariable3)
+
+miVariable3 += 1
+print(miVariable3)
+
+miVariable3 -= 2
+print(miVariable3)
+
+miVariable3 *= 3
+print(miVariable3)
+
+miVariable3 /= 2
+print(miVariable3)"""
+
+# Operadores de comparación
+"""d = 4
+b = 2
+resultado = d == b
+print(resultado)
+
+# Operador diferente
+resultado = d != b
+print(resultado)
+
+# Operador Mayor que
+resultado = d > b
+print(resultado)
+
+# Operador Menor que
+resultado = d < b
+print(resultado)
+
+# Operador Mayor ó igual que
+resultado = d >= b
+print(resultado)
+
+# Operador Menor ó igual que
+resultado = d <= b
+print(resultado)"""
+
+"""num = int(input("Ingrese un número: "))
+print(f"El residuo de la division es {num % 2}")
+if num % 2 == 0:
+    print(f"El número ingresado {num} es par")
+else:
+    print(f"El número ingresado {num} es impar")"""
+
+"""edad = int(input("Ingrese su edad: "))
+if edad >= 18:
+    print(f"Su edad es {edad} años, eres mayor de edad.")
+else:
+    print(f"Su edad es {edad} años, eres menor de edad.")
+"""
