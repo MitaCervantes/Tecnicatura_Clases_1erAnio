@@ -126,7 +126,7 @@ public class HolaMundo {
         //Inferencia de tipo
         var varCaracter1 = '\u0024'; //Indicamos a Java la asignación con el codigo unicode
         System.out.println("varCaracter1 = " + varCaracter1);
-        var  varCaracterDecimal1 = (char)36;//Valor decimal del juego de caracteres unicode
+        var  varCaracterDecimal1 = (char)36;//Valor enetero y le asgina un tipo int
         System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
         var varCaracterSimbolo1 = '$' ;//Un caracter especial, podemos copiar y pegar desde unicode
         System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
@@ -134,8 +134,8 @@ public class HolaMundo {
         int varEnteroChar = '$';
         System.out.println("varEnteroChar = " + varEnteroChar);
         
-        int caracter = 'b';
-        System.out.println("caracter = " + caracter);
+        int caracterChar = 'b';
+        System.out.println("caracterChar = " + caracterChar);
         
     }     
 }
