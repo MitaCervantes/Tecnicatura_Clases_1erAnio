@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0e34739-0b43-4201-9b9d-91ad990c9bc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/Leccion1/HolaMundo/build/classes/HolaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Leccion1/HolaMundo/build/classes/HolaMundo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/pythonProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme/readme.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="c0e34739-0b43-4201-9b9d-91ad990c9bc3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
