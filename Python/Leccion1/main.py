@@ -149,3 +149,64 @@ if edad >= 18:
 else:
     print(f"Su edad es {edad} años, eres menor de edad.")
 """
+# Operadores Lógicos
+"""a = True
+b = False
+resultado = a and b
+print(resultado)
+
+resultado = a or b
+print(resultado)
+
+resultado = not a
+print(resultado)
+
+# Ejercicio con el Operador and
+valor = int(input("Ingrese un número: "))
+valorMinimo = 0
+valorMaximo = 5
+dentroRango = valor >= valorMinimo and valor <= valorMaximo
+if dentroRango:
+    print(f"El número ingresado {valor} si se encuentra en el rango")
+else:
+    print(f"El número ingresado {valor} se encuentra fuera de rango")
+
+# Ejercicio con el Operador or y Operador not
+vacaciones = False
+diaDescanso = False
+if not (vacaciones or diaDescanso):
+    print("Tiene trabajo que hacer")
+else:
+    print("Puede asistir al juego")
+
+edad = int(input("Ingrese su edad: "))
+if (20 <= edad <= 30) or (30 <= edad < 40):  # sintaxis simplificada de operador and
+    print("Estas dentro del rango de los (20\'0) a (30\'0) años ")
+else:
+    print("No estas dentro del rango de los (20\'0) a (30\'0) años")
+
+num1 = int(input("Digite el valor para el número 1: "))
+num2 = int(input("Digite el valor para el número 2: "))
+if num1 > num2:
+    print(f"El número mayor es el primer ingresado: {num1}")
+else:
+    print(f"El número mayor es el segundo ingresado: {num2}")"""
+
+print("Tienda de Libros")
+print("Ingrese los siguientes datos del Libro:")
+nombre = input("Digite el nombre del libro: ")
+idLibro = int(input("Digite el ID del libro: "))
+precio = float(input("Digite el precio del libro: "))
+envio = input("Indicar si el envio es gratuito (True/False): ")
+if envio == "True":
+    envio = True
+elif envio == "False":
+    envio = False
+else:
+    envio = "El valor es incorrecto, dede ingresar True/False"
+print(f'''
+        Nombre: {nombre} 
+        Id: {idLibro} 
+        Precio: {precio} 
+        Envio gratuito?: {envio} 
+''')
