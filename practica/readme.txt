@@ -1,5 +1,3 @@
-Mis primeros pasos en git, y otras cosas más
-Otra línea de modificación
-
-Modifico archivo readme
-Quiero ver si se agrega algo
+Pruebo otra cosa que no tenga nada que ver
+con la rama master
+para ver si hay conflicto
