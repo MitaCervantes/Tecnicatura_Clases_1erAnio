@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 
 /**
  *
@@ -56,6 +56,7 @@ public class HolaMundo {
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);*/
         
+        //Tipos primitivos enteros: byte, short, int, long
         /*byte numEnteroByte0 = (byte)129;//Conversion de tipos y perdida de precision
         System.out.println("numEnteroByte0 = " + numEnteroByte0);
         byte numEnteroByte = 127;
@@ -88,6 +89,7 @@ public class HolaMundo {
         System.out.println("Valor maximo de Long: "+ Long.MAX_VALUE);
         System.out.println("\n");*/
         
+        // Tipos primitivos de tipo flotante: float y double
         /*float numFloat0 = (float)3.4028236E38;//conversion de tipos y perdida de precision
         System.out.println("numFloat0 = " + numFloat0);
         float numFloat = 3.4028235E38F;
@@ -103,7 +105,7 @@ public class HolaMundo {
         System.out.println("\n");*/
         
         //Inferencia de tipos var y tipo primitivo
-        var numEntero = 20; //Las literales sin punto son automaticamente de tipo int
+        /*var numEntero = 20; //Las literales sin punto son automaticamente de tipo int
         System.out.println("numEntero = " + numEntero);
         
         var numFloat = 10.0F;
@@ -126,7 +128,7 @@ public class HolaMundo {
         //Inferencia de tipo
         var varCaracter1 = '\u0024'; //Indicamos a Java la asignación con el codigo unicode
         System.out.println("varCaracter1 = " + varCaracter1);
-        var  varCaracterDecimal1 = (char)36;//Valor enetero y le asgina un tipo int
+        var  varCaracterDecimal1 = (char)36;//Valor entero y le asigna un tipo int
         System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
         var varCaracterSimbolo1 = '$' ;//Un caracter especial, podemos copiar y pegar desde unicode
         System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
@@ -135,7 +137,41 @@ public class HolaMundo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         
         int caracterChar = 'b';
-        System.out.println("caracterChar = " + caracterChar);
+        System.out.println("caracterChar = " + caracterChar);*/
+        
+        //Tipos primitivos boolean
+       /*boolean varBoolean = true;
+       System.out.println("varBoolean = " + varBoolean);
+        
+       if(varBoolean){
+           System.out.println("La bandera es verdadera");
+       } 
+       else{
+           System.out.println("La bandera es falsa");
+       }
+       
+       var edad = 10;
+       //var esAdulto = edad >= 18;
+       if( edad >= 18 ){
+           System.out.println("Eres mayor de edad");
+       }
+       else{
+           System.out.println("Eres menor de edad");
+       }*/
+       
+       //Convertir tipo String a un tipo int:
+        var edad = Integer.parseInt("20");
+        //var edad = "20";
+        System.out.println("edad = " + (edad + 1));
+        
+        var valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+        
+        //Pedir un valor 
+        var entrada = new Scanner(System.in);
+        System.out.println("Proporciona tu edad:");
+        edad = Integer.parseInt(entrada.nextLine() );
+        System.out.println("edad = " + edad);
         
     }     
 }
