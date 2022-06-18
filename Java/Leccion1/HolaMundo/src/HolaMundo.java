@@ -39,7 +39,7 @@ public class HolaMundo {
        System.out.println( usuario + " " + (a + b) );
        
        //Ejercicio: caracteres especiales con Java
-       var nombre = "Natalia";
+        var nombre = "Natalia";
         System.out.println("Nueva linea: \n"+ nombre);//Diagonal inversa y letra n
         System.out.println("Tabulador: \t" + nombre);//Diagonal imversa y letra t
         System.out.println("Retroceso: \b" + nombre);//Caracter de retroceso
@@ -159,9 +159,9 @@ public class HolaMundo {
            System.out.println("Eres menor de edad");
        }*/
        
+       //Conversión de tipos primitivos
        //Convertir tipo String a un tipo int:
-        var edad = Integer.parseInt("20");
-        //var edad = "20";
+        /*var edad = Integer.parseInt("20");      
         System.out.println("edad = " + (edad + 1));
         
         var valorPI = Double.parseDouble("3.1416");
@@ -173,5 +173,186 @@ public class HolaMundo {
         edad = Integer.parseInt(entrada.nextLine() );
         System.out.println("edad = " + edad);
         
+        //Convertir tipo int a un tipo String:
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var fraseChar = "programadores".charAt(0); 
+        System.out.println("fraseChar = " + fraseChar);
+        
+        System.out.println("Digite un caracter:");
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("fraseChar = " + fraseChar);*/
+        
+        //Operadores aritméticos en Java:
+        /*int num1=5, num2=4;
+        var solucion = num1 + num2;
+        System.out.println("resultado suma = " + solucion);
+        
+        solucion = num1 - num2;
+        System.out.println("solucion resta = " + solucion);
+        
+        solucion = num1 * num2;
+        System.out.println("solucion multiplicacion = " + solucion);
+        
+        solucion = num1 / num2;
+        System.out.println("solucion division = " + solucion);
+        
+        var solucion2 = 3D / num2;
+        System.out.println("solucion2 division = " + solucion2);
+        
+        solucion = num1 % num2;
+        System.out.println("solucion modulo = " + solucion);
+        
+        if( num2 % 2 == 0)
+            System.out.println("Es numero par");
+        else
+            System.out.println("Es numero impar");*/
+        
+        //Operadores de Asignación/Composición:
+        /*int num1 = 3, num2=2;
+        int num3 = num1 + 5 - num2; 
+        System.out.println("num3 = " + num3);
+        
+        num1 += 1;//num1 = num1 + 1
+        System.out.println("num1 = " + num1);
+        
+        num1 += 3;//num1 = num1 + 3
+        System.out.println("num1 = " + num1);
+        
+        num1 -= 2;//num1 = num1 - 2
+        System.out.println("num1 = " + num1);
+       
+        num1 *= 2;//num1 = num1 = " + num1);
+        System.out.println("num1 = " + num1);
+        
+        num1 /= 2;//num1 = num1 / 2
+        System.out.println("num1 = " + num1);
+        
+        num1 %= 2;//num1 = num1 % 2
+        System.out.println("num1 = " + num1);*/
+        
+        //Operadores Unarios en Java:
+        //Cambio de signo
+        /*var a = 3;
+        var b = -a;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        //Operador de negación
+        var c = true;
+        var d = !c;
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+        
+        //Operadores unarios de incremento
+        //1.preincremento (simbolo antes de la variable)
+        var e = 3;
+        var f = ++e;//primero se incrementa la variable y despues se usa su valor
+        System.out.println("e = " + e);
+        System.out.println("f = " + f);
+        //2.postincremento (simbolo despues de la variable)
+        var g = 5;
+        var h = g++;//primero se utiliza el valor y despues se incrementa
+        System.out.println("g = " + g);//teniamos pendiente un incremento
+        System.out.println("h = " + h);
+        
+        //Operadores unarios de decremento
+        //1.predecremento
+        var i = 2;
+        var j = --i;
+        System.out.println("i = " + i);//ya esta drecrementada
+        System.out.println("j = " + j);
+        
+        //2.postdecremento
+        var k = 4;
+        var l = k--;//primero se usa el valor de la variable y queda pendiente decremento
+        System.out.println("k = " + k);//teniamos pendiente un drecremento
+        System.out.println("l = " + l);*/
+        
+        //Operadores de Igualdad
+        /*var a = 5;
+        var b = 4;
+
+        var c = (a == b);
+        System.out.println("c = " + c);
+
+        var d = a != b;
+        System.out.println("d = " + d);
+
+        var cadena = "Hola";
+        var cadena2 = "Hola";
+        var e = cadena == cadena2;//compara referencias de objetos
+        System.out.println("e = " + e);
+
+        var f = cadena.equals(cadena2);//compara contenido de cadenas
+        System.out.println("f = " + f);
+        
+        //Operadores Relacionales
+        //>  >=  <  <=  == != 
+        
+        var g = a >= b;//mayor  que > o el mayor o igual >=
+        System.out.println("g = " + g);
+
+        if (a % 2 == 0) {
+            System.out.println("Es numero par");
+        } else {
+            System.out.println("Es numero impar");
+        }
+        
+        var edad = 10;
+        var adulto = 18;
+        if(edad >= adulto){
+            System.out.println("Es un adulto");
+        }
+        else{
+            System.out.println("Es menor de edad");
+        }*/
+        
+        //Operadores Condicionales
+        /*var valorA = 8;
+        var valorMinimo = 0;
+        var valorMaximo = 10;
+        
+        var resultado = valorA >= 0 && valorA <= 10;
+        if(resultado){
+            System.out.println("Dentro de rango");
+        }
+        else{
+            System.out.println("Fuera de rango");
+        }
+        
+        var vacaciones = false;
+        var diaLibre = true;
+        
+        if( vacaciones || diaLibre){
+            System.out.println("Padre puede asistir al juego del hijo");
+        }
+        else{
+            System.out.println("El padre esta ocupado");
+        }
+        
+        //Operador Ternario en Java
+        var resultado = (5 > 4) ? "verdadero" : "falso";        
+        System.out.println("resultado = " + resultado);
+        
+        var numero = 9;
+        resultado = (numero % 2 == 0) ? "numero par" : "numero impar";
+        System.out.println("resultado = " + resultado);*/
+        
+        //Precedencia de Operadores
+        /*var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        
+        var resultado = 4 + 5 * 6 / 3;//4 + ((5*6)/3)
+        System.out.println("resultado = " + resultado);//14
+        
+        resultado = (4 + 5) * 6 / 3;
+        System.out.println("resultado = " + resultado);*/
+    
     }     
 }

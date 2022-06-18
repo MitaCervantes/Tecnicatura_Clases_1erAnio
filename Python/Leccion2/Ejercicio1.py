@@ -1,6 +1,6 @@
 # import math
 """
-Ejercicio 1: Escribir la siguiente expresión en forma de expresión
+# Ejercicio 1: Escribir la siguiente expresión en forma de expresión
 algoritmica.
 
 a = float(input("Digite el valor de a: "))
@@ -11,7 +11,7 @@ input(f"El resultado es: {resultado}")
 """
 
 """
-Ejercicio 2: Determinar la solución lógica de la siguiente expresión.
+# Ejercicio 2: Determinar la solución lógica de la siguiente expresión.
 
 a = float(input("Digite el valor de a: "))
 b = float(input("Digite el valor de b: "))
