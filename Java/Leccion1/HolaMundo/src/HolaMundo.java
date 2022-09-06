@@ -338,10 +338,10 @@ public class HolaMundo {
         
         var numero = 9;
         resultado = (numero % 2 == 0) ? "numero par" : "numero impar";
-        System.out.println("resultado = " + resultado);*/
+        System.out.println("resultado = " + resultado)*/
         
         //Precedencia de Operadores
-        /*var x = 5;
+        var x = 5;
         var y = 10;
         var z = ++x + y--;
         System.out.println("x = " + x);
@@ -352,7 +352,7 @@ public class HolaMundo {
         System.out.println("resultado = " + resultado);//14
         
         resultado = (4 + 5) * 6 / 3;
-        System.out.println("resultado = " + resultado);*/
+        System.out.println("resultado = " + resultado);
     
     }     
 }
