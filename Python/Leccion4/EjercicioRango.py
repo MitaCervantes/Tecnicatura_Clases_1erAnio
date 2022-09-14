@@ -1,5 +1,6 @@
 # Ejercicio 1 : iterar un rango de 0 a 10 e imprimir numeros divisibles entre 3
 # Ejemplo de ejecucion : 0,3,6,9
+import math
 
 for i in range(11):
     if i % 3 == 0:
@@ -35,3 +36,10 @@ for num in tupla:
         lista.append(num)
 print(lista)
 
+# Matematicas
+# Para sacar la raiz cuadrada de un numero positivo
+numero = int(input("Digite un numero positivo: "))
+while(numero < 0):
+    print('Error -> Deberia ser un numero positivo')
+    numero = int(input("Digite un numero positivo: "))
+print(f'\nSu raiz cuadrada es: {math.sqrt(numero):.2f}')

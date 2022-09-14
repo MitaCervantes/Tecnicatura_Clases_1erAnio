@@ -1,7 +1,7 @@
 # lista : Ariel. Liliana, Natalia, Osvaldo
 # Colleciones en Python
 
-# las listas es lo que se conoce en otros kenguajes como arreglos o vectores
+# las listas es lo que se conoce en otros lenguajes como arreglos o vectores
 nombres = ["Naty", "Osvaldo", "Lily", "Ariel"]
 
 print(nombres[0])
@@ -95,7 +95,7 @@ del cocina
 
 # del cocina #esto es para eliminar una tupla
 
-# Tipo Set
+# Tipo Set o Conjunto
 planetas = {'Marte', 'Jupiter', 'Venus'}
 print(planetas)
 print(len(planetas))  # Usamos la funcion len = length significa largo
@@ -237,7 +237,7 @@ print(conjunto == conjunto1)  # nos devuelve un booleano
 conjunto3 = conjunto | conjunto1  # la linea une los dos conjuntos
 print(conjunto3)
 
-conjunto3 = conjunto & conjunto1  # qque elemento tienen en comun
+conjunto3 = conjunto & conjunto1  # que elemento tienen en comun
 print(conjunto3)
 
 conjunto3 = conjunto - conjunto1  # asigna el valor que esta en el conjunto y no en el conjunto1
@@ -348,3 +348,5 @@ seRetira = cola.pop(0)
 print(f'Atendido el cliente {seRetira}')
 print(cola)
 
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
