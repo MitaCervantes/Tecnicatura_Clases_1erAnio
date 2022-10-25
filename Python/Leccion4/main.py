@@ -1,5 +1,5 @@
 # lista : Ariel. Liliana, Natalia, Osvaldo
-# Colleciones en Python
+# Coleciones en Python
 
 # las listas es lo que se conoce en otros lenguajes como arreglos o vectores
 nombres = ["Naty", "Osvaldo", "Lily", "Ariel"]
@@ -272,7 +272,7 @@ print(diccionarioNuevo)
 del (diccionarioNuevo['Azul'])
 print(diccionarioNuevo)
 
-# Los diccionarios puedem almacenar diferents tipos de datos. {
+# Los diccionarios puedem almacenar diferentes tipos de datos. {
 diccionario2 = {'Ariel': {'Edad': 40, 'Altura': 1.83}, 'Osvaldo': [45, 1.85], 'Natalia': [35, 1.67]}
 print(diccionario2)
 
