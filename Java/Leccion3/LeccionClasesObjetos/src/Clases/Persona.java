@@ -3,8 +3,8 @@ package Clases;
 
 public class Persona {
     //Atributos de la Clase: características
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     //Metodos de la Clase (acciones):
      public void obtenerInformacion(){
