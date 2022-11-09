@@ -2,7 +2,7 @@
 package domain;
 
 public class Persona {
-    //Cargamos los atributos
+    //Cargamos los atributos:
     private int idPersona;
     private String nombre;
     private static int contadorPersonas;
