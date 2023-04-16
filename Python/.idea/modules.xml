@@ -3,13 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POO/Leccion01/.idea/Leccion01.iml" filepath="$PROJECT_DIR$/POO/Leccion01/.idea/Leccion01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion2/.idea/Leccion2.iml" filepath="$PROJECT_DIR$/Leccion2/.idea/Leccion2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion3/.idea/Leccion3.iml" filepath="$PROJECT_DIR$/Leccion3/.idea/Leccion3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion4/.idea/Leccion4.iml" filepath="$PROJECT_DIR$/Leccion4/.idea/Leccion4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion5/.idea/Leccion5.iml" filepath="$PROJECT_DIR$/Leccion5/.idea/Leccion5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion6/.idea/Leccion6.iml" filepath="$PROJECT_DIR$/Leccion6/.idea/Leccion6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion7/.idea/Leccion7.iml" filepath="$PROJECT_DIR$/Leccion7/.idea/Leccion7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leccion8/.idea/Leccion8.iml" filepath="$PROJECT_DIR$/Leccion8/.idea/Leccion8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion10/.idea/Leccion10.iml" filepath="$PROJECT_DIR$/Leccion10/.idea/Leccion10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion11/.idea/Leccion11.iml" filepath="$PROJECT_DIR$/Leccion11/.idea/Leccion11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion12/.idea/Leccion12.iml" filepath="$PROJECT_DIR$/Leccion12/.idea/Leccion12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion13/.idea/Leccion13.iml" filepath="$PROJECT_DIR$/Leccion13/.idea/Leccion13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion14/.idea/Leccion14.iml" filepath="$PROJECT_DIR$/Leccion14/.idea/Leccion14.iml" />
     </modules>
   </component>
 </project>
